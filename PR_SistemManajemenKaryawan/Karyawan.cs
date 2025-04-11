@@ -30,7 +30,7 @@ namespace PR_SistemManajemenKaryawan
             set { gajiPokok = value; }
         }
 
-        // Method virtual HitungGaji
+        // Method untuk HitungGaji
         public virtual double HitungGaji()
         {
             return GajiPokok;
